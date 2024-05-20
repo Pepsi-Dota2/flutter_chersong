@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chersong/page/home.dart';
+import 'package:flutter_chersong/src/features/articles/presentation/pages/home_pages.dart';
 
 void main() => runApp(const MainPage());
 
@@ -15,7 +15,7 @@ class _MainPAgeState extends State<MainPage> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: HomePages(),
     );
   }
 }
